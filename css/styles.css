@@ -1,0 +1,64 @@
+/* акцент синий #2196F3 */
+/* основной цвет #212121 */
+/* белый цвет #FFFFFF */
+/* вторичный цвет #757575 */
+/*  вторичный цвет фона #2F303A */
+
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3 ;
+}
+.body{
+     
+    background-color: #212121;
+    color: var(--primary-text-color);
+
+}
+
+
+.logo {
+    color: #000000;
+}
+ul {
+    list-style: none;
+} 
+/* site nav */
+.site-nav a {
+    color: var(--title-text-color);
+}
+.site-nav a:hover, .site-nav a:focus {
+    color: var(--accent-color);
+} 
+.site-nav .link.current {
+    color: var(--accent-color);
+}
+
+/* inf */
+.inf .mail:hover, .inf .mail:focus {
+color: var(--accent-color);
+}
+
+/* hero */
+.hero-title {
+    background: #2F303A; 
+    color: #FFFFFF ;
+}
+/* Peculiarities */
+.peculiarities .title {
+    color: var(--title-text-color);
+}
+/* sections */
+ .section-title {
+     color: var(--title-text-color);
+ }
+
+/* team */
+.team-list .title {
+    color: var(--title-text-color);
+}
+/* button */
+.hero-button {
+    color: #FFFFFF;
+    background: var(--accent-color);
+}

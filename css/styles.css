@@ -8,6 +8,8 @@
     --primary-text-color: #757575;
     --title-text-color: #212121;
     --accent-color: #2196F3 ;
+    --title-white-color: #FFFFFF;
+    --bgr-color: #2F303A;
 }
 .body{
      
@@ -42,7 +44,7 @@ color: var(--accent-color);
 /* hero */
 .hero-title {
     background: #2F303A; 
-    color: #FFFFFF ;
+    color: var(--title-white-color) ;
 }
 /* Peculiarities */
 .peculiarities .title {
@@ -59,6 +61,15 @@ color: var(--accent-color);
 }
 /* button */
 .hero-button {
-    color: #FFFFFF;
+    color: var(--title-white-color);
     background: var(--accent-color);
+}
+
+/* Button-portfolio */
+.button-port button {
+    color: var(--title-text-color);
+}
+.button-port button:hover, .button-port:focus {
+    background-color: var(--accent-color);
+    color: var(--title-white-color);
 }

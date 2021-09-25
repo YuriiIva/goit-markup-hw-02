@@ -23,6 +23,7 @@
 .logo {
     color: #000000;
     font-family: raleway, sans-serif; 
+    font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
 
@@ -33,7 +34,6 @@ ul {
 /* site nav */
 .site-nav a {
     color: var(--title-text-color);
-    font-family: Roboto;
     font-size: 14px;
     font-weight: 500;
     line-height: 1.4;
@@ -59,32 +59,77 @@ letter-spacing: 0.02em;
 .hero-title {
     background: #2F303A; 
     color: var(--title-white-color) ;
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-align: center;
+}
+
 }
 /* Peculiarities */
 .peculiarities .title {
     color: var(--title-text-color);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.14;
+    
+    text-align: left;
 }
 /* sections */
  .section-title {
-     color: var(--title-text-color);
+     color: var(--title-text-color);   
+     font-size: 36px;
+     font-weight: 700;
+     line-height: 1.17;
+     
+     text-align: center;
  }
 
 /* team */
 .team-list .title {
     color: var(--title-text-color);
+font-size: 16px;
+font-weight: 500;
+line-height: 1.88;
+
+text-align: center;
+}
+.team-list p {
+font-size: 16px;
+line-height: 1.19;
+
+text-align: center;
 }
 /* button */
 .hero-button {
     color: var(--title-white-color);
     background: var(--accent-color);
-
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
 }
 
 /* Button-portfolio */
 .button-port button {
     color: var(--title-text-color);
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.63;
+    letter-spacing: 0.03em;
 }
-.button-port button:hover, .button-port:focus {
+.button-port button:hover, .button-port button:focus {
     background-color: var(--accent-color);
     color: var(--title-white-color);
+}
+.examples .title {
+    color: var(--title-text-color);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    text-align: left;
 }

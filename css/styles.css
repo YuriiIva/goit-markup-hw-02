@@ -11,7 +11,7 @@
     --title-white-color: #FFFFFF;
     --bgr-color: #2F303A;
 }
-.body {
+.body { 
     background-color: var(--title-white-color);
     color: var(--primary-text-color);
 
@@ -57,7 +57,7 @@ letter-spacing: 0.02em;
 
 /* hero */
 .hero-title {
-    background: #2F303A; 
+    background: var(--bgr-color); 
     color: var(--title-white-color) ;
     font-size: 44px;
     font-weight: 900;
@@ -68,7 +68,7 @@ letter-spacing: 0.02em;
 
 }
 /* Peculiarities */
-.peculiarities .title {
+.section .pecul-title {
     color: var(--title-text-color);
     font-size: 14px;
     font-weight: 700;
